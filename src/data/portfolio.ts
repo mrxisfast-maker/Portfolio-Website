@@ -1,0 +1,73 @@
+import { BriefcaseBusiness, Code2, PanelsTopLeft, Smartphone, type LucideIcon } from 'lucide-react'
+
+export const portfolio = {
+  name: 'M.F. Sultan Suhail Ahamed',
+  title: 'Java Developer | Web Developer | Cybersecurity Enthusiast',
+  location: 'Chennai, Tamil Nadu, India',
+  email: '',
+  github: 'https://github.com/mrxisfast-maker',
+  linkedin: 'https://www.linkedin.com/in/sultan-suhail-ahamed-m-f/',
+  resumeUrl: '/FINAL%20RESUME%201.docx',
+  profileImage: '',
+  roles: ['Java Developer', 'Web Developer', 'Cybersecurity Enthusiast'],
+  highlights: [
+    { title: 'Computer Science Student', detail: 'B.E. CSE, Cyber Security' },
+    { title: 'Java Development', detail: 'Full stack foundations' },
+    { title: 'Web Development', detail: 'Modern, responsive interfaces' },
+    { title: 'Cybersecurity', detail: 'Security-minded learning' },
+  ],
+  skillGroups: [
+    { title: 'Programming', skills: ['Java', 'Python (Beginner)'] },
+    { title: 'Web development', skills: ['HTML', 'CSS', 'JavaScript', 'React'] },
+    { title: 'Java technologies', skills: ['JDBC', 'Hibernate', 'Spring Framework', 'SQL'] },
+    { title: 'Cybersecurity', skills: ['Burp Suite', 'Wireshark', 'Web Application Security', 'Ethical Hacking Fundamentals'] },
+    { title: 'Design', skills: ['Figma', 'UI/UX Design'] },
+  ],
+  projects: [
+    {
+      title: 'GenAI Driven Security Compliance Aid Application',
+      description: 'An academic project designed to assist with security compliance using Generative AI, Local LLM integration, and Retrieval-Augmented Generation (RAG).',
+      technologies: ['React', 'GenAI', 'Local LLM', 'RAG'],
+      kind: 'compliance',
+      type: 'ACADEMIC PROJECT',
+      screenshot: '',
+      repoUrl: '',
+    },
+    {
+      title: 'Personal Portfolio Website',
+      description: 'A responsive personal portfolio website showcasing technical skills, projects, and professional background.',
+      technologies: ['HTML', 'CSS', 'JavaScript', 'React'],
+      kind: 'portfolio',
+      type: 'PERSONAL PROJECT',
+      screenshot: '',
+      repoUrl: '',
+    },
+    {
+      title: 'Web Development Projects',
+      description: 'A collection of web development practice projects demonstrating responsive layouts, frontend development, and user interface design.',
+      technologies: ['HTML', 'CSS', 'JavaScript'],
+      kind: 'web',
+      type: 'PROJECT COLLECTION',
+      screenshot: '',
+      repoUrl: '',
+    },
+  ],
+  experience: [
+    { title: 'Web Development Internship', organization: 'Organization details to be added', duration: 'Dates to be added', description: 'Internship completed. Add organization, dates, and a brief summary when ready.' },
+    { title: 'Cybersecurity Internship', organization: 'Organization details to be added', duration: 'Dates to be added', description: 'Internship completed. Add organization, dates, and a brief summary when ready.' },
+    { title: 'AI Development Internship', organization: 'Organization details to be added', duration: 'Dates to be added', description: 'Internship completed. Add organization, dates, and a brief summary when ready.' },
+    { title: 'Java Full Stack Development Training', organization: 'Fazo Academy', duration: '6 months', description: 'Completed a six-month Java Full Stack Development course.' },
+  ],
+  education: {
+    degree: 'B.E. Computer Science and Engineering (Cyber Security)',
+    institution: 'Dhanalakshmi College of Engineering',
+    graduation: '2027',
+  },
+  services: [
+    { title: 'Responsive Website Development', description: 'Websites that adapt cleanly across phones, tablets, and desktops.', Icon: Smartphone },
+    { title: 'Business Website Development', description: 'Clear, considered websites for small businesses and growing teams.', Icon: BriefcaseBusiness },
+    { title: 'Personal Portfolio Websites', description: 'A distinctive online home for your work, skills, and story.', Icon: Code2 },
+    { title: 'Landing Page Development', description: 'Focused pages that present a product, service, or idea with clarity.', Icon: PanelsTopLeft },
+    { title: 'Basic Website Customization', description: 'Practical updates to layouts, content, and responsive behavior.', Icon: Code2 },
+  ] satisfies { title: string; description: string; Icon: LucideIcon }[],
+}
